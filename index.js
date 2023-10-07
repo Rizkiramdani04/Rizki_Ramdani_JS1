@@ -1,24 +1,31 @@
  // contoh nilai if//
+ 
  let nilai = 12;
  if(nilai < 20){
      console.log(`nilai ini adalah ${nilai}`)
  }
- // contoh nilai else
+ //Penutup if//
+
+ // pembuka else//
  let nilai1 = 69;
  if(nilai1 > 70){
      console.log(`Kamu Bisa Melakukan Pembelajaran kedepannya dengan Nilai ${nilai}`)
  }else{
      console.log(`Kamu bisa mengulangi di tahun depan karena  nilai kamu sekarang ${nilai1}`);
  }
- //contoh nilai if else//
+ //Penutup else//
+ //pembuka if else//
  let ipk = 3.40
  if(ipk >3.45){
      console.log(`Kamu Lulus dengan nilai yang bagus dengan ${ipk}`)
  }else if(ipk >3.00){
      console.log(`Kamu lulus dengan nilai yang cukup ${ipk} selalu tingkatkan nilai yang kurang`)
- }else{`Nilai kamu masih kurang coba lagi di tahun depan`};
+ }else{
+    console.log(`Nilai kamu masih kurang coba lagi di tahun depan`)
+};
+ //Penutup if else//
 
-  //nested if//
+  //pembuka nested if//
   let nilaiUjian = 90;
   let nilaiAbsensi = 80;
   if(nilaiUjian >80){
@@ -29,7 +36,8 @@
   else{
      console.log(`Kamu Masih Belum Bisa Lulus Karena Nilai Ujian ${nilaiUjian} dan Nilai Absensi ${nilaiAbsensi} Terus Belajar`);
   }
-  //swich case//
+  //Penutup nested if//
+  //pembuka swich case//
   let uang = 3;
   
   switch(uang){
@@ -45,39 +53,47 @@
      default:
          console.log(`Cari dulu pasangan jang terburu buru-buru`)
   }
+  //Penutup switch//
 
-  //for statement//
+  //pembukafor statement//
   for(let a=1; a <= 5; a++){
      console.log(`Nilai muncul ${a}`);
   }
- //for in statement//
+  //Penutup for//
+ //pembuka for in statement//
   const nilaiUas = { a: 90, b: 80, c: 70 };
 
   for (let nilai in nilaiUas) {
   console.log(`nilai ${nilai} = ${nilaiUas[nilai]}`);
   }
-  //for of statement//
+  //Penutup for in//
+  
+  //pembuka for of statement//
   const namaMentor = ["Syarif","Reza","Aulia"];
   for (const nama of namaMentor) {
      console.log(`Nama Mentor Di Infinite Learning diantaranya kak ${nama}`);   
   }
-  //while//
+  //Penutup for of//
+  //pembuka while//
   let number =1;
   while(number < 3){
      console.log(`nilai ${number}`)
      number++;   
   }
-  //do while//
+  //Penutup while//
+  //pembuka do while//
   let angka=1;
   do{
      console.log(`nilai saya sekarang ${angka}`)
      angka++;     
   }while( angka<=4)
+  //Penutup do while//
 
 
-  //function//
+  //pembuka function//
   function namaSaya(){
      console.log(`Perkenalkan Nama Saya Rizki Ramdani Saya Berusia 20 Tahun`);
   }
   namaSaya();
+  //Penutup function//
  
